@@ -12,7 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  supabase_flutter: ^2.5.0
+  # Use explicit range to avoid invalid combined constraints in CI
+  supabase_flutter: ">=2.5.0 <3.0.0"
   image_picker: ^1.0.7
   cupertino_icons: ^1.0.6
 
